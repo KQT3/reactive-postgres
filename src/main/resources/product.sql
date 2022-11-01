@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS product;
 CREATE TABLE product
 (
     id          VARCHAR(255),

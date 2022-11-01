@@ -8,21 +8,21 @@ import org.springframework.context.annotation.Configuration;
 
 import static io.r2dbc.pool.PoolingConnectionFactoryProvider.MAX_SIZE;
 import static io.r2dbc.spi.ConnectionFactoryOptions.*;
-//
+
 //@Configuration
 public class R2DBCConfig {
 
-//    @Bean
-//    public ConnectionFactory connectionFactory() {
-//        return ConnectionFactories.get(
-//                ConnectionFactoryOptions.builder()
-//                        .option(DRIVER, "postgresql")
-//                        .option(HOST, "localhost")
-//                        .option(PORT, 5430)
-//                        .option(USER, "admin")
-//                        .option(PASSWORD, "admin")
-//                        .option(DATABASE, "qt3-music-postgres-db")
-//                        .option(MAX_SIZE, 40)
-//                        .build());
-//    }
+/*    @Bean
+    public ConnectionFactory connectionFactory() {
+        return ConnectionFactories.get(
+                ConnectionFactoryOptions.builder()
+                        .option(DRIVER, "postgresql")
+                        .option(HOST, "localhost")
+                        .option(PORT, 5430)
+                        .option(USER, "admin")
+                        .option(PASSWORD, "admin")
+                        .option(DATABASE, "qt3-music-postgres-db")
+                        .option(MAX_SIZE, 40)
+                        .build());
+    }*/
 }
