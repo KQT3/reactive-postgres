@@ -11,12 +11,12 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 @Configuration
 public class ProductsEndpointConfig {
 
-    private static final String PRODUCT = "/product";
+//    private static final String PRODUCT = "/product";
 
-    @Bean
-    RouterFunction<ServerResponse> routes(ProductHandler handler) {
-        return route(GET(PRODUCT), handler::all)
-                .andRoute(POST(PRODUCT), handler::create)
-                .andRoute(DELETE(PRODUCT + "/{id}"), handler::deleteById);
-    }
+//    @Bean
+//    RouterFunction<ServerResponse> routes(ProductHandler handler) {
+//        return route(GET(PRODUCT), handler::all)
+//                .andRoute(POST(PRODUCT), handler::create)
+//                .andRoute(DELETE(PRODUCT + "/{id}"), handler::deleteById);
+//    }
 }

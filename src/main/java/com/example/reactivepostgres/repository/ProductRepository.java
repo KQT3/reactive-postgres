@@ -1,8 +1,8 @@
-package com.example.reactivepostgres;
+package com.example.reactivepostgres.repository;
 
+import com.example.reactivepostgres.domains.Product;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
-import org.springframework.stereotype.Repository;
 
-@Repository
+//@Repository
 public interface ProductRepository extends ReactiveCrudRepository<Product, String> {
 }

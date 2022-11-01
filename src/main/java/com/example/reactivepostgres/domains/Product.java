@@ -1,13 +1,16 @@
-package com.example.reactivepostgres;
+package com.example.reactivepostgres.domains;
 
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.domain.Persistable;
+import org.springframework.data.relational.core.mapping.Table;
 
 @Data
-@ToString
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Table("product")
 public class Product implements Persistable<String> {
     @Id
     private String id;
