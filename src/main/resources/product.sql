@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS product;
-CREATE TABLE product
+-- DROP TABLE IF EXISTS product;
+CREATE TABLE IF NOT EXISTS product
 (
     id          VARCHAR(255),
     description VARCHAR(255),
